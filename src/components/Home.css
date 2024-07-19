@@ -1,0 +1,48 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .welcome-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .devotional-quote {
+    font-size: 24px;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .call-to-action {
+    margin-top: 20px;
+  }
+  
+  .call-to-action button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .call-to-action button:hover {
+    background-color: #3e8e41;
+  }
